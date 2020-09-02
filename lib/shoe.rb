@@ -7,7 +7,6 @@ class Shoe
   attr_accessor :brand, :color, :size, :material, :condition
   
   def cobble
-    binding.pry 
     puts "Your shoe is as good as new!"
   end
   
